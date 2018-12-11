@@ -1,0 +1,340 @@
+body{
+	background-image: url(im.jpg);
+}
+
+body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+width: 100%;
+}
+nav ul { 
+list-style: none; 
+margin: 0; 
+padding: 0; 
+} 
+
+nav a { 
+text-decoration: none; 
+outline: none; 
+display: block; 
+} 
+
+.menu { 
+background: #ba55d3; 
+} 
+.menu > li { 
+display: inline-block; 
+position: relative; 
+} 
+
+.menu > li > a { 
+font-family: 'Comic Sans MS', cursive; 
+font-size: 20px; 
+background:#ab33c6; 
+color: #fff83f; 
+
+line-height: 70px; 
+padding:0 30px; 
+height: 70px; 
+
+position: relative; 
+display: block; 
+} 
+
+.menu li a:hover { 
+color:#d619c3; 
+background: #671c77; 
+text-decoration: none; 
+display: block; 
+} 
+
+.onecell { 
+background: #ab33c6; 
+border: 2px solid #917ce2; 
+width: 200px; 
+position: absolute; 
+display: none; 
+z-index: 5; 
+
+} 
+
+.menu li:hover .onecell, .onecell li:hover .twocell { 
+display:block; 
+} 
+
+.onecell li a { 
+font-family: 'Courier New', monospace; 
+font-size: 17px; 
+font-weight: bold; 
+color: #fff83f; 
+line-height: 30px; 
+padding: 0 25px; 
+} 
+
+.twocell { 
+background: #ab33c6; 
+border: 2px solid #917ce2; 
+position: absolute; 
+margin-left: 200px; 
+margin-top:-31px; 
+display: none; 
+
+width:200px; 
+z-index: 5; 
+}
+.img1{
+	width: 25%;
+	float: left;
+	margin-top: 10px;
+}
+.textblock{
+	margin-left: 1%;
+	margin-top: 0px;
+	width: 48%;
+	float: left;
+	position: relative;
+	font-family: URW Chancery L, cursive;
+	font-size: 11pt;
+	color: #ffb2f8;
+}
+.textblock h1{
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 25pt;
+	text-align: center;
+	color:#ff05c0;
+	text-shadow: 
+		-0   -2px 1px #8C316F,
+		 0   -2px 1px #8C316F,
+		-0    2px 1px #8C316F,
+		 0    2px 1px #8C316F,
+		-2px -0   1px #8C316F,
+		 2px -0   1px #8C316F,
+		-2px  0   1px #8C316F,
+		 2px  0   1px #8C316F,
+		-1px -2px 1px #8C316F,
+		 1px -2px 1px #8C316F,
+		-1px  2px 1px #8C316F,
+		 1px  2px 1px #8C316F,
+		-2px -1px 1px #8C316F,
+		 2px -1px 1px #8C316F,
+		-2px  1px 1px #8C316F,
+		 2px  1px 1px #8C316F,
+		-2px -2px 1px #8C316F,
+		 2px -2px 1px #8C316F,
+		-2px  2px 1px #8C316F,
+		 2px  2px 1px #8C316F,
+		-2px -2px 1px #8C316F,
+		 2px -2px 1px #8C316F,
+		-2px  2px 1px #8C316F,
+		 2px  2px 1px #8C316F;
+}
+.textblock1{
+	margin-left: 1%;
+	margin-top: 10px;
+	width: 48%;
+	float: left;
+	position: relative;
+	list-style-position: outside;
+	font-family: Snell Roundhand, cursive;
+	font-size: 12pt;
+	color: #3d0527;
+}
+.textblock1 h1{
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 25pt;
+	text-align: center;
+	color:#e21ba7;
+	text-shadow: 
+		-0   -2px 1px #8C316F,
+		 0   -2px 1px #8C316F,
+		-0    2px 1px #8C316F,
+		 0    2px 1px #8C316F,
+		-2px -0   1px #8C316F,
+		 2px -0   1px #8C316F,
+		-2px  0   1px #8C316F,
+		 2px  0   1px #8C316F,
+		-1px -2px 1px #8C316F,
+		 1px -2px 1px #8C316F,
+		-1px  2px 1px #8C316F,
+		 1px  2px 1px #8C316F,
+		-2px -1px 1px #8C316F,
+		 2px -1px 1px #8C316F,
+		-2px  1px 1px #8C316F,
+		 2px  1px 1px #8C316F,
+		-2px -2px 1px #8C316F,
+		 2px -2px 1px #8C316F,
+		-2px  2px 1px #8C316F,
+		 2px  2px 1px #8C316F,
+		-2px -2px 1px #8C316F,
+		 2px -2px 1px #8C316F,
+		-2px  2px 1px #8C316F,
+		 2px  2px 1px #8C316F;
+}
+.textblock1 h3{
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 13pt;
+	text-align: center;
+	color: #e8a3ff;
+}
+.textblock1 img{
+	width: 35%;
+	float: left;
+	text-align: left;
+	margin-right: 30px;
+}
+#quote{
+	font-size: 10pt;
+	color: #ffa8cc;
+	text-align: center;
+}
+.textblock2{
+	font-family: Georgia, Times New Roman, Times, serif;
+	color:#ffb2e8;
+	margin-left: 1%;
+	margin-top: 0px;
+	width: 48%;
+	float: left;
+	position: relative;
+	text-align: center;
+	text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+}
+.textblock2 h1{
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 25pt;
+	text-align: center;
+	color:#ff05c0;
+	text-shadow: 
+		-0   -2px 1px #8C316F,
+		 0   -2px 1px #8C316F,
+		-0    2px 1px #8C316F,
+		 0    2px 1px #8C316F,
+		-2px -0   1px #8C316F,
+		 2px -0   1px #8C316F,
+		-2px  0   1px #8C316F,
+		 2px  0   1px #8C316F,
+		-1px -2px 1px #8C316F,
+		 1px -2px 1px #8C316F,
+		-1px  2px 1px #8C316F,
+		 1px  2px 1px #8C316F,
+		-2px -1px 1px #8C316F,
+		 2px -1px 1px #8C316F,
+		-2px  1px 1px #8C316F,
+		 2px  1px 1px #8C316F,
+		-2px -2px 1px #8C316F,
+		 2px -2px 1px #8C316F,
+		-2px  2px 1px #8C316F,
+		 2px  2px 1px #8C316F,
+		-2px -2px 1px #8C316F,
+		 2px -2px 1px #8C316F,
+		-2px  2px 1px #8C316F,
+		 2px  2px 1px #8C316F;
+}
+#avtor{
+	color:#ed2d73;
+	font-size: 20px;
+	margin-left: 130px;
+}
+.banner{
+	width: 25%;
+	float: right;
+}
+.banner div{
+	width: 100%;
+	height: auto;
+}
+.img2{
+	margin-top: 10px;
+}
+.img3{
+	margin-top: 60px;
+}
+.img4{
+	margin-top: 60px;
+}
+.footer{
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+}
+@media print{
+	img{
+		display: none;
+	}
+	.forscreen{
+		display: none;
+	}
+	.footer{
+		display: none;
+	}
+	.textblock{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	.textblock h1{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	.textblock1{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	.textblock1 h1{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	#quote{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	.textblock1 h3{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	.textblock2{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	.textblock2 h1{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	#avtor{
+		font-family: Arial,serif;
+		color:black;
+		font-size: 14px;
+		text-shadow: none;
+
+}
